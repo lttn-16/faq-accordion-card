@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+body{
+    background-image: linear-gradient(hsl(273, 75%, 66%),hsl(240, 73%, 65%));
+    background-repeat: no-repeat;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+   
+}
+
+.container{
+    width: 70%;
+    margin: 10rem auto;
+    background-color: white;
+    border-radius: 3%;
+    max-width: 1440px;
+}
+
+
+/* section */
+
+.section{
+    font-size: 6rem;
+    padding: 5rem;
+    padding-bottom: 8rem;
+    background-image: url(./images/illustration-woman-online-desktop.svg),url(./images/bg-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: -20% 50%, 750% 70%;
+}
+
+/* section left */
+.section__left{
+    position: relative;
+}
+
+.section__left__img{
+    position: absolute;
+    top: 40%;
+    left: -36%;
+    z-index: 1;
+}
+
+/* section right */
+.section__right{
+    margin-top: 2rem;
+}
+
+.section__right__icon{
+    margin-top: 0.5rem;
+    cursor: pointer;
+}
+
+.section__right--border{
+    border-bottom: 1px solid hsl(240, 5%, 91%);
+    margin-bottom: 2rem;
+}
+
+.section__right__ask{
+    float: left;
+    color:hsl(237, 12%, 33%);
+    font-size: 1.5rem;
+    opacity: 0.9;
+}
+
+.section__right__ask:hover{
+    color: hsl(14, 88%, 65%);
+    cursor: pointer;
+}
+
+
+.section__right__answer{
+    color: hsl(240, 6%, 50%);
+}
+
+/* rotate */
+.rotated { 
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+    transition: 1s;
+}
+
+.change-color{
+    color: hsl(238, 29%, 16%);
+    font-weight: 700;
+    opacity: 1;
+}
